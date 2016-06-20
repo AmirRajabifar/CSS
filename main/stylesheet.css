@@ -86,3 +86,11 @@ h2 {
 .imagesidebar:hover {
 	opacity: 0.4;
 }
+
+#footer {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 60px;
+	clear: both;
+	border-radius: 5px;
+}
