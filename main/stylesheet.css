@@ -115,3 +115,18 @@ h2 {
 	font-size: 120%;
 	color: darkblue;	
 }
+
+h3 {
+	font-size: 250%;
+	text-align: center;
+	color: #e5e4d7;
+	font-family: "centery gothic", "gill saps", arial;
+	margin: 0px;
+
+	/* realative positioning, vertical centering*/
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
