@@ -67,3 +67,16 @@ h2 {
 	clear: right;
 }
 
+.imagesidebar {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	float: right; /*move to right*/
+	width: 300px;
+	/* 'clear' states that we want the floating elesments in a
+	top down manner*/
+	clear: right;
+}
+
