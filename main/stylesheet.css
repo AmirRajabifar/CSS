@@ -18,3 +18,17 @@ body {
 	height: 35px;
 	border-radius: 5px;
 }
+
+.main {
+	background-color: #e5e4d7;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%;
+	/* No fixed height or width, cause the main page is dynamic*/
+}
+
+h1 {
+	font-size: 120%;
+	color: #ce282e;
+}
