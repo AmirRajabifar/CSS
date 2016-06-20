@@ -18,12 +18,25 @@ body {
 	margin: 10px;
 	border-radius: 5px;
 	padding: 5px;
-	list-style-type: none;
-	text-align: center;
+	list-style-type: none; /* remove bullet points*/
+	text-align: center;	
 }
 
 #navbar ul li{
 	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none; /* no decoration i.e no underline*/
+	font-family: arial;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
 }
 
 .main {
