@@ -21,14 +21,46 @@ body {
 
 .main {
 	background-color: #e5e4d7;
-	margin: 10px;
 	border-radius: 5px;
 	padding: 20px;
 	font-size: 110%;
-	/* No fixed height or width, cause the main page is dynamic*/
+	/*  No fixed height or width, cause the main page is dynamic
+		To fit the side bar with no conflict, we need to play round
+		with margines
+	*/
+	margin-left: 10px;
+	margin-right: 320px;
+	/*  To get the correct margin:
+	the width + padding-rihgt + padding-left + margin-rihgt + margin-left
+	*/
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 h1 {
 	font-size: 120%;
 	color: #ce282e;
 }
+
+h2 {
+	font-size: 120%;
+	color: darkblue;	
+}
+
+.sideright {
+	background-color: #e5e4d7;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* To make everything lined up the margin-top property of the side bar 
+	is set to zero.
+	This is because the side bar is a float element at it's margin is added
+	with other elements not averaged.*/
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 105%;
+	float: right; /*move to right*/
+	width: 260px;
+}
+
