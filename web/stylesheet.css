@@ -1,0 +1,139 @@
+body {
+	background-color: #ffcf79;
+	color:black;
+	font-family: verdana, Arial, Geneva, Arial black;
+	font-weight: normal;
+	font-size: 20px;
+}
+h1{
+	color: green;
+	text-decoration: underline;
+	/*
+	text-decoration: underline
+	text-decoration: overline;
+	text-decoration: line-through;
+	text-decoration: underline overline;
+	*/
+	font-size: 150%;
+}
+h2{
+	text-decoration: underline;
+	font-size: 1.2em;
+}
+h1,h2{
+	text-align: center;
+	/*
+		text-align: center;
+		text-align: right;
+		text-align: left;
+	*/
+}
+h3{
+	color: green;
+	text-decoration: underline;
+}
+#para1homepage {
+	color: blue;
+	/*font-size: 18px;*/
+}	
+	/*font-style: italic;*/
+	/*
+	font-style: italic;
+	font-style: oblique;
+	*/
+
+p.paragraph{
+	/* Since we specify the color in the appropreate div, there is no need of 
+	specifying a color here*/
+	font-size: 0.95em;
+	line-height: 1.5em;
+	background-color: #e5e4d7;
+	padding: 15px 15px 15px 15px;
+	/*There are 3 property to consider when adding a border */
+	border: black 2px solid;
+
+	background-image: url(tileable-cloud-patterns-3.jpg);
+
+	border-radius: 10px;
+}
+/*
+	Backgroun-Color Property onpy appliesto padding and content
+
+	Padding properties can be combined:
+	padding: 15px 15px 15px 15px;
+	(Don't have to type padding-top etc.)
+
+	Border properties can be combined
+	border-color: black 2px solid;
+*/
+#para4homepage{
+	color: black;
+	font-size: 0.95em;
+	line-height: 1.5em;
+	background-color: #e5e4d7;
+	padding: 15px;
+	/*padding-left: 40px;*/
+	/*There are 3 property to consider when adding a border */
+	border-color: #296A64; 
+	border-width: thick;
+	border-style: ridge;
+
+	margin: 20px;
+	margin-top: 50px;
+	margin-left: 400px;
+}
+/* Border Property:
+	border-color: NAME, RGB, HEX;
+	border-width:thin, medium, thick, [X]px;
+	border-style:solid, dashed, dotted, double, groove, ridge, inset, outset;	
+	
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px; 
+	-------------------------------
+	border-bottom
+	border-top
+	border-right
+	border-left
+	can apply these against: style, width, color;
+*/	
+img.imagec{
+	display: block;
+	/* To center an object horizentally this method is efficient */
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 3px;
+	background-color: silver;
+	border-color: black; 
+	border-width: 2px;
+	border-style: solid;
+}
+
+#divmain{
+	color: black;
+}
+
+#divbass{
+	color: black;
+}
+
+.divcontent{
+	color: black;
+}
+
+.highlight{
+	background-color: #ffff00;
+}
+
+a:link{
+	color: blue;
+}
+a:visited{
+	color: #8C8c9D;
+}
+a:hover{
+	color: #F15A51;
+}

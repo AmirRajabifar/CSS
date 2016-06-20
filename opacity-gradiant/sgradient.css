@@ -1,0 +1,22 @@
+/* linear-gradiants*/
+#box1 {
+	width: 800px;
+	height: 300px;
+	float: left;
+	background: blue; /*A safety step incase the browser doesn't recognize gradient*/
+	/*defult - top to bottom*/
+	background: linear-gradient(blue, yellow);
+	/*  - to right
+		- to left
+		- to top right
+		- to top left
+		- to bottom right
+		- to bottom left
+	*/
+	background: linear-gradient(to bottom right,blue, yellow);
+	/*custom angles - */
+	background: linear-gradient(20deg,blue, yellow);
+	/*Can have more than two colors */
+	/*Dominate a color over another */
+	background: linear-gradient(20deg,blue 50%, yellow 50%);
+}

@@ -1,0 +1,116 @@
+/* The Type selectors - select by element by type*/
+h1 {
+	color: blue;
+}
+
+/* The ID selectors - select element with # */
+#paral {
+	color: green;
+}
+
+/* The class selectors - select element with . */
+.para {
+	color: orange;
+}
+
+/* Combine Selectors */
+h3, #paral {
+	text-decoration: underline;
+}
+
+/* The Descendant Selector - select element inside another element */
+div p {
+	font-style: italic;
+}
+
+/* The child selector - selects DIRECT CHILD element */
+blockquote.test>b {
+	color: purple;
+}
+
+#left, #center, #right {
+	width: 300px;
+	float: left;
+	padding: 15px;
+	margin: 10px;
+	border: solid 2px black; 
+}
+
+#left {
+	background-color: #FFFFFE;
+}
+
+#center {
+	background-color: #ECF1EF;
+}
+
+#right {
+	background-color: #EBECE4;
+}
+/* n-th chiled selector - even/odd element */
+#center p:nth-child(even) {
+	background-color: orange;
+}
+
+/* n-th chiled selector - exact element */
+#center p:nth-child(3) {
+	background-color: red;
+}
+
+/* n-th chiled selector - paterned element */
+#center p:nth-child(3n) {
+	background-color: red;
+}
+
+/* sibiling slector -
+the + is used to select the first element after,
+while ~ is used to select all */
+h2+p {
+	color: red;
+}
+
+/* attribute slector - type */
+p[lang] {
+	background-color: orange;
+}
+
+/* attribute slector - exact value */
+p[lang = "en-au"] {
+	background-color: green;
+}
+
+/* attribute slector - value begins with */
+p[lang ^= "fr"] {
+	background-color: yellow;
+}
+
+/* attribute slector - value ends with*/
+p[lang $= "k"] {
+	background-color: purple;
+}
+
+/* attribute slector - value contains */
+p[lang *= "us"] {
+	background-color: blue;
+}
+
+/* NOT selector: it selectes everything except the 
+one specified. The selector must be present in the
+.css file. 
+*/
+p {
+	color: red;
+}
+:not(p) {
+	color: darkgreen;
+}
+
+/* first selector*/
+p::first-letter {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+p:first-line {
+	color: black;
+}
