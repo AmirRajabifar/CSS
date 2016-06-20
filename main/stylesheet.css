@@ -62,5 +62,8 @@ h2 {
 	font-size: 105%;
 	float: right; /*move to right*/
 	width: 260px;
+	/* 'clear' states that we want the floating elesments in a
+	top down manner*/
+	clear: right;
 }
 
