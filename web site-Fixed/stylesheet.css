@@ -55,5 +55,28 @@ body
     solid;      font-family: Arial;
     font-size: 16px;
     overflow: auto ;
-    border-bottom-right-radius:1em;   
-}﻿
+    border-bottom-right-radius:1em;
+    
+}
+
+/*  
+In the fixed layout all element widths and/or heights must mach up
+This include the width, margin, padding etc all round the elements        
+*/
+
+/* ######################## Mini content panel ######################## */
+#box {
+    background-color:#4e5a65;
+    border: 2px solid #000;
+    border-radius:1em ;
+    font-size: 95%;
+    padding: 10px;
+    margin: 20px;
+    width:280px;
+    color:white;
+}
+
+.test {
+    display: block;
+    text-align: center;
+}
